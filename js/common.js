@@ -44,6 +44,8 @@ $(".portfolio-item").each(function(i){
     $(this).find("a").attr("href","#work-" + i);
     $(this).find(".port-discr").attr("id", "work-"+ i);
 });
+
+$(function () { $("input,select,textarea").jqBootstrapValidation(); } );
     
 });
 $(window).load(function() { 
